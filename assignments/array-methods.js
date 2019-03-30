@@ -115,8 +115,5 @@ console.log(emails);
 
 // Match the representative with the company name in a new array.
 
-const represent = runners.map(
-    runner =>
-      `${runner.first_name} ${runner.last_name} is from ${runner.company_name}.`
-  );
+const represent = runners.map(runner => `${runner.first_name} ${runner.last_name} is from ${runner.company_name}.`);
   console.log(represent);
