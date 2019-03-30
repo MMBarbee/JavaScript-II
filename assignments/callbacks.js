@@ -91,6 +91,16 @@ function contains(item, list, cb) {
   // Pass true to the callback if it is, otherwise pass false.
 }
 
+function contains(item, list, cb) {
+  let presentItem = false;
+  for (let i = 0; i < list.length; i++){ 
+    if (list[i] === item) {
+      presentItem = true;
+    }
+  }
+  cb(presentItem);
+}
+
 /* STRETCH PROBLEM */
 
 function removeDuplicates(array, cb) {
