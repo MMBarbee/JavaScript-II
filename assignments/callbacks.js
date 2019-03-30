@@ -68,6 +68,23 @@ function sumNums(x){
 function multiplyNums(x, y, cb) {
   // multiplyNums multiplies two numbers and passes the result to the callback.
 }
+ 
+function multiplyNums(x,y){
+return x * y;
+}
+
+function addNums(x,y){
+  return x + y;
+  }
+
+  function calculate(x,y,cb){
+    return  cb (x * y);
+    }
+
+const result = calculate(x,y,cb)
+console.log(result)
+
+// -------------------------------------------- //
 
 function contains(item, list, cb) {
   // contains checks if an item is present inside of the given array/list.
