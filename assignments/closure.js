@@ -3,7 +3,7 @@
 const nickname = 'Twinkie';
 function crazyName(){
   const firstName = 'Myasia';
-  alert('My name is ' ${firstName}, ' but my nickname is ' ${nickname});
+  return('My name is'  (${firstName}), 'but my nickname is'  (${nickname}));
 }
 console.log(crazyName);
 
